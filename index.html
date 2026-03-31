@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Profil Mahasiswa</title>
+
+    <style>
+      body {
+        margin: 0;
+        font-family: "Segoe UI", sans-serif;
+        background: linear-gradient(to bottom, #9fb7cf, #a8c2db);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .card {
+        background: #eef2f6;
+        width: 800px;
+        border-radius: 18px;
+        padding: 35px 50px;
+
+        box-shadow:
+          0 10px 25px rgba(0, 0, 0, 0.15),
+          0 2px 8px rgba(0, 0, 0, 0.08);
+      }
+
+      h1 {
+        text-align: center;
+        color: #6d9ed6;
+        margin-bottom: 30px;
+        font-weight: 600;
+        letter-spacing: 1px;
+      }
+
+      .content {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+      }
+
+      .profile-img {
+        width: 190px;
+        height: 190px;
+        border-radius: 50%;
+
+        border: 6px solid #7aa6d9;
+
+        object-fit: cover;
+
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .info {
+        flex: 1;
+      }
+
+      .info p {
+        margin: 10px 0;
+        font-size: 16px;
+        color: #333;
+      }
+
+      .label {
+        font-weight: 600;
+        display: inline-block;
+        width: 140px;
+        color: #000;
+      }
+
+      .info p span:last-child {
+        margin-left: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="card">
+      <h1>🎓 Profil Mahasiswa</h1>
+
+      <div class="content">
+        <img src="foto.jpeg" class="profile-img" />
+
+        <div class="info">
+          <p><span class="label">Nama</span>: Zahra Nabila</p>
+          <p><span class="label">NIM</span>: 2310817320007</p>
+          <p><span class="label">Program Studi</span>: Teknologi Informasi</p>
+          <p><span class="label">Bidang</span>: Bigdata</p>
+          <p>
+            <span class="label">Kampus</span>: Universitas Lambung Mangkurat
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
